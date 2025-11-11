@@ -3,8 +3,17 @@
 <h1 align="center">Hi, I'm Sun Zhengjun (孙正君) 👋</h1>
 
 <!-- 打字效果标题 -->
+<!-- 打字效果标题（若网络允许就有动画，否则显示 alt 文本） -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Unity3D+Game+Developer;专注+客户端开发和Editor工具链;热衷+自动化、热更新、性能优化&font=Fira+Code&size=28&width=520&pause=1200&color=36BCF7" alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.demolab.com/?lines=Unity3D+Game+Developer;专注+客户端开发和Editor工具链;热衷+自动化、热更新、性能优化&font=Fira+Code&size=26&width=520&pause=1200&color=36BCF7"
+    alt="Unity3D Game Developer · 客户端开发 & Editor 工具链 · 自动化 / 热更新 / 性能优化"
+  />
+</p>
+
+<!-- 文本兜底，确保所有人都能看到 -->
+<p align="center">
+  <strong>Unity3D Game Developer · 客户端开发 & Editor 工具链 · 自动化 / 热更新 / 性能优化</strong>
 </p>
 
 <!-- 访问量 & GitHub 关注/Star -->
