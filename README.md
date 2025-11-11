@@ -3,13 +3,7 @@
   <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="120" style="border-radius:50%;" alt="avatar">
 </p>
 
-<h1 align="center">Hi, I'm Sun Zhengjun (孙正军) 👋</h1>
-
-<p align="center">
-  <a href="https://your-online-resume-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/📄_在线简历-点击进入-important?style=for-the-badge" alt="Resume" />
-  </a>
-</p>
+<h1 align="center">Hi, I'm Sun Zhengjun (孙正君) 👋</h1>
 
 <!-- 打字效果标题 -->
 <p align="center">
