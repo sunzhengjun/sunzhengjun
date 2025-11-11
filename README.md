@@ -32,23 +32,38 @@
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-121011?style=flat-square&logo=gnu-bash&logoColor=white)
+![BAT](https://img.shields.io/badge/Batch%20Script-4D4D4D?style=flat-square&logo=windows-terminal&logoColor=white)
 
 **Tools & IDE**
 
 ![Rider](https://img.shields.io/badge/Rider-000000?style=flat-square&logo=Rider&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![AutoHotkey](https://img.shields.io/badge/AutoHotKey-334455?style=flat-square&logo=autohotkey&logoColor=white)
+![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-512BD4?style=flat-square&logo=odin&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white)
+![AI Coding](https://img.shields.io/badge/AI%20Coding-00A67E?style=flat-square&logo=openai&logoColor=white)
 
 **Game Dev & Workflow**
 
-![Game Framework](https://img.shields.io/badge/-Game%20Frameworks-blueviolet?style=flat-square)
-![HybridCLR](https://img.shields.io/badge/-HybridCLR-orange?style=flat-square)
-![Editor Tools](https://img.shields.io/badge/-Unity%20Editor%20Tools-success?style=flat-square)
-![Automation](https://img.shields.io/badge/-Build%20%26%20CI/CD-informational?style=flat-square)
+![Game Frameworks](https://img.shields.io/badge/Game%20Frameworks-8A2BE2?style=flat-square)
+![HybridCLR](https://img.shields.io/badge/HybridCLR-FF8C00?style=flat-square)
+![Unity Editor Tools](https://img.shields.io/badge/Unity%20Editor%20Tools-4CAF50?style=flat-square)
+![Build & CI/CD](https://img.shields.io/badge/Build%20%26%20CI%2FCD-2196F3?style=flat-square)
+![ECS](https://img.shields.io/badge/ECS-0078D7?style=flat-square)
+![UGUI](https://img.shields.io/badge/UGUI-00BFA6?style=flat-square)
+![NGUI](https://img.shields.io/badge/NGUI-FF6F00?style=flat-square)
+![FGUI](https://img.shields.io/badge/FGUI-9C27B0?style=flat-square)
 
 ---
+
 
 ## 💡 技术成果 Highlights
 - **构建流程自动化**：开发 Android/iOS/Xcode 构建系统，构建时间缩短约 60%。  
