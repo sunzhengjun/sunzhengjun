@@ -2,12 +2,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/sunzhengjun/sunzhengjun/main/pipeline-banner.svg" alt="Automation Pipeline Banner" />
 </p>
-
-<!-- 顶部：一句话简介（保留文字版本，兼容不加载图片的情况） -->
-<h1 align="center">“让复杂的开发流程自动化，让游戏开发更纯粹。”</h1>
-<p align="center">
-  <strong>Unity3D Game Developer · 客户端开发 & Editor 工具链 · 自动化／热更新／性能优化</strong>
-</p>
 <!-- Badge 行 -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sunzhengjun&label=Visitors&color=0e75b6&style=for-the-badge" alt="访客统计" />
