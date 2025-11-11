@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sunzhengjun/sunzhengjun/main/assets/top.png" alt="CriseSun Banner" />
+</p>
+
 <!-- 头像 + 名称 + 简历入口 -->
 <h1 align="center">Hi, I'm CriseSun 👋</h1>
 
