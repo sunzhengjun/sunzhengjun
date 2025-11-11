@@ -1,6 +1,11 @@
 <!-- 头像 + 名称 + 简历入口 -->
-
 <h1 align="center">Hi, I'm CriseSun 👋</h1>
+
+<p align="center">
+  <a href="https://github.com/sunzhengjun/sunzhengjun/blob/main/孙正君-U3D_2025.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📄_点击查看我的简历-重要文档-important?style=for-the-badge" alt="Resume PDF" />
+  </a>
+</p>
 
 <!-- 标题 -->
 <p align="center">
@@ -9,19 +14,20 @@
 
 <!-- 访问量 & GitHub 关注/Star -->
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=sunzhengjun.sunzhengjun&left_color=gray&right_color=0d6efd&style=for-the-badge" alt="访客统计" />
+  <img src="https://komarev.com/ghpvc/?username=sunzhengjun&label=Visitors&color=0e75b6&style=for-the-badge" alt="访客统计" />
   <img src="https://img.shields.io/github/followers/sunzhengjun?style=for-the-badge&logo=github&label=Followers&color=0d6efd" alt="GitHub Followers" />
   <img src="https://img.shields.io/github/stars/sunzhengjun?style=for-the-badge&logo=github&label=Stars&color=facc15" alt="GitHub Stars" />
 </p>
+
 ---
 
 ## 👨‍💻 关于我 · About Me
 
-- 🎮 Unity3D 客户端工程师（C#）  
-- 🧰 擅长搭建 **Editor 工具链、自动化流程**（代码模板生成、资源打包、热更新流程等）  
-- 🚀 熟悉 **游戏框架（如 GameFramework）、HybridCLR 热更新、网络请求/协议封装**  
-- 🧪 对 **性能优化、调试工具、开发流程改造** 有持续兴趣  
-- 📌 目前希望在 **Unity 客户端 + Tools / Pipeline** 方向进一步深入，并承担更多技术负责人/主程角色
+- 🎮 7年Unity3D客户端开发经验，擅长从0到1搭建项目架构与工具链  
+- 🧰 精通 **Editor扩展、自动化构建、HybridCLR热更新**、网络模块及工具研发  
+- ⚙️ 熟悉 **Android/iOS/Xcode构建自动化流程**，能显著缩短版本发布周期  
+- 🧪 对 **性能优化、脚本架构、工具开发** 有持续热情与研究  
+- 📌 现任河南摩决堂网络科技有限公司 Unity3D工程师  
 
 ---
 
@@ -32,7 +38,7 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 
 **Tools & IDE**
 
@@ -44,7 +50,7 @@
 
 **Game Dev & Workflow**
 
-![Game Dev](https://img.shields.io/badge/-Game%20Frameworks-blueviolet?style=flat-square)
+![Game Framework](https://img.shields.io/badge/-Game%20Frameworks-blueviolet?style=flat-square)
 ![HybridCLR](https://img.shields.io/badge/-HybridCLR-orange?style=flat-square)
 ![Editor Tools](https://img.shields.io/badge/-Unity%20Editor%20Tools-success?style=flat-square)
 ![Automation](https://img.shields.io/badge/-Build%20%26%20CI/CD-informational?style=flat-square)
@@ -53,39 +59,89 @@
 
 ## 📂 代表项目 · Featured Projects
 
-> 下方项目名称与链接请替换为你自己的实际仓库或演示地址。
+### 🎓 《玄机兔点唐诗》
+> 少儿启蒙类App，类似《洪恩识字》，现已双平台上线  
+- 主导客户端模块开发与性能优化  
+- 实现多语言模块、剧情编辑器扩展、资源热更新  
+- 优化AB加载与带宽成本（节省42%）  
 
-### 🎯 客户端 & 框架类
+---
 
-- **PlayFreelyXiYou / 畅玩西游（示例）**  
-  Unity 热更新 MMO / 休闲手游客户端，整合 GameFramework + HybridCLR，封装网络层、UI 模块化、数据表自动生成等。  
-  关键工作：
-  - 负责整体客户端架构、模块拆分与代码规范；
-  - 自研 UI 代码/预制体自动生成工具，提升页面开发效率；
-  - 接入热更新管线，支持 Android / iOS 资源热更。  
-  `👉` *仓库/演示链接（私有可省略或仅写说明）*
+### 💖 《奇点物语》
+> 二次元恋爱剧情卡牌手游（首月流水3000万+）  
+- 维护剧情编辑器、自动生成配置工具  
+- 负责Roguelike副玩法开发与Lua业务逻辑  
+- 实现多语言支持（文本、图片、剧情）  
 
-- **PlayFreelyXiYouUIGenerator（Editor 工具）**  
-  为 Unity 项目定制的 **UI 模板生成器**：一键创建模块目录、脚本模板、预制体骨架，并支持自动绑定组件。  
-  `👉` https://github.com/yourname/PlayFreelyXiYouUIGenerator
+---
 
-### 🧪 工具 & 实验项目
+### ♟️ 《棋兵斗阵》
+> 自走棋类型手游  
+- 重构棋子/棋手系统，优化战斗血条飘字效果  
+- 开发战斗技能编辑器、资源冗余筛查工具  
+- 集成 Jenkins 自动化打包流程  
 
-- **Unity Code Template Panel (Odin)**  
-  基于 Odin 的代码模板管理工具，支持左侧列表 + 右侧代码编辑、复制、一键保存至工程。  
-  `👉` https://github.com/yourname/UnityCodeTemplatePanel
+---
 
-- **Shutdown Scheduler .bat**  
-  Windows 定时关机脚本小工具，带中文交互界面和下班“倒计时”提示。  
-  `👉` https://github.com/yourname/ShutdownSchedulerCN
+### 🦖 《重返侏罗纪》
+> 回合制恐龙卡牌手游  
+- 主导UI与战斗模块开发  
+- 构建资源加载与宏切换工具  
+- 优化包体压缩35%，提升性能稳定性  
 
-> 如需兼做简历入口，可在这里分板块放：**正式项目 / 外包项目 / 个人作品 / Demo**，方便 HR 一眼看到重点。
+---
+
+### ⚔️ 《全民修仙》
+> 放置修仙手游  
+- 重构项目热更新架构，制定AB增量更新策略  
+- 优化资源加载逻辑与网络模块  
+
+---
+
+### 🏰 SLG国战游戏
+> 类似《真龙霸业》《率土之滨》的大型国战游戏  
+- 负责Lua逻辑开发（国家、战斗、城池、排行榜等）  
+- 制作一键热更、宏切换、包体构建工具  
+
+---
+
+## 💡 技术成果 Highlights
+
+- 🔧 开发自动化构建系统（Android/iOS/Xcode），节省60%构建时间  
+- 📊 资源自动命名+同步Excel系统，协作效率提升30%  
+- 🎨 开发标准化GUI工具链，提升美术资源配置效率50%  
+- ⚙️ 热更新架构重构，带宽成本下降42%，加载时间优化显著  
+- 🧱 自研编辑器插件（技能编辑器、资源筛查、一键生成工具等）  
+
+---
+
+## 🎓 教育经历
+
+**河南化工学院**  
+大专 · 机电一体化技术（2012 - 2015）  
+计算机一级证书  
+
+---
+
+## 📫 联系方式
+
+- 📧 Email: **1139210500@qq.com**  
+- 📍 地点: 郑州  
+- 💼 求职方向: Unity3D客户端开发工程师  
+- 💰 期望薪资: 12K - 15K  
 
 ---
 
 ## 📊 GitHub 统计 · GitHub Stats
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=sunzhengjun&show_icons=true&theme=tokyon_
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sunzhengjun&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sunzhengjun&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sunzhengjun&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+</p>
