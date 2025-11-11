@@ -20,23 +20,27 @@
 
 ## 🛠 技能图谱 · Tech Stack
 
-**Languages & Engine**  
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)  
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)  
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)  
+**Languages & Engine**
+
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 
-**Tools & IDE**  
-![Rider](https://img.shields.io/badge/Rider-000000?style=flat-square&logo=rider&logoColor=white)  
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)  
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+**Tools & IDE**
 
-**Game Dev & Workflow**  
-![Editor Tools](https://img.shields.io/badge/-Unity%20Editor%20Tools-success?style=flat-square)  
-![HybridCLR](https://img.shields.io/badge/-HybridCLR-orange?style=flat-square)  
-![Automation](https://img.shields.io/badge/-Build%20%26%20CI/CD-informational?style=flat-square)  
-![Game Frameworks](https://img.shields.io/badge/-Game%20Frameworks-blueviolet?style=flat-square)
+![Rider](https://img.shields.io/badge/Rider-000000?style=flat-square&logo=Rider&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+
+**Game Dev & Workflow**
+
+![Game Framework](https://img.shields.io/badge/-Game%20Frameworks-blueviolet?style=flat-square)
+![HybridCLR](https://img.shields.io/badge/-HybridCLR-orange?style=flat-square)
+![Editor Tools](https://img.shields.io/badge/-Unity%20Editor%20Tools-success?style=flat-square)
+![Automation](https://img.shields.io/badge/-Build%20%26%20CI/CD-informational?style=flat-square)
 
 ---
 
@@ -79,9 +83,8 @@
 ## 📫 联系方式 · Contact Me
 
 <p align="center">
-  💬 <a href="mailto:your_email@example.com">Email</a> • 
+  💬 <a href="1139210500@qq.com">Email</a> • 
   🌐 <a href="https://github.com/sunzhengjun">GitHub</a> • 
-  🏠 <a href="https://your-portfolio-link.com">Portfolio</a> (可选)
 </p>
 
 <p align="center">
