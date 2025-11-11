@@ -1,28 +1,18 @@
 <!-- 头像 + 名称 + 简历入口 -->
 
-<h1 align="center">Hi, I'm Sun Zhengjun (孙正君) 👋</h1>
+<h1 align="center">Hi, I'm CriseSun 👋</h1>
 
-<!-- 打字效果标题 -->
-<!-- 打字效果标题（若网络允许就有动画，否则显示 alt 文本） -->
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com/?lines=Unity3D+Game+Developer;专注+客户端开发和Editor工具链;热衷+自动化、热更新、性能优化&font=Fira+Code&size=26&width=520&pause=1200&color=36BCF7"
-    alt="Unity3D Game Developer · 客户端开发 & Editor 工具链 · 自动化 / 热更新 / 性能优化"
-  />
-</p>
-
-<!-- 文本兜底，确保所有人都能看到 -->
+<!-- 标题 -->
 <p align="center">
   <strong>Unity3D Game Developer · 客户端开发 & Editor 工具链 · 自动化 / 热更新 / 性能优化</strong>
 </p>
 
 <!-- 访问量 & GitHub 关注/Star -->
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=sunzhengjun.sunzhengjun&left_color=gray&right_color=blue" alt="访客统计" />
-  <img src="https://img.shields.io/github/followers/sunzhengjun?style=flat-square&color=0891b2&label=Followers" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/sunzhengjun?style=flat-square&color=facc15&label=Stars" alt="GitHub Stars" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=sunzhengjun.sunzhengjun&left_color=gray&right_color=0d6efd&style=for-the-badge" alt="访客统计" />
+  <img src="https://img.shields.io/github/followers/sunzhengjun?style=for-the-badge&logo=github&label=Followers&color=0d6efd" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/stars/sunzhengjun?style=for-the-badge&logo=github&label=Stars&color=facc15" alt="GitHub Stars" />
 </p>
-
 ---
 
 ## 👨‍💻 关于我 · About Me
@@ -42,6 +32,7 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
 
 **Tools & IDE**
 
