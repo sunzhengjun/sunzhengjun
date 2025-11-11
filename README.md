@@ -1,7 +1,4 @@
 <!-- 头像 + 名称 + 简历入口 -->
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="120" style="border-radius:50%;" alt="avatar">
-</p>
 
 <h1 align="center">Hi, I'm Sun Zhengjun (孙正君) 👋</h1>
 
