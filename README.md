@@ -35,6 +35,7 @@
 ![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-121011?style=flat-square&logo=gnu-bash&logoColor=white)
 ![BAT](https://img.shields.io/badge/Batch%20Script-4D4D4D?style=flat-square&logo=windows-terminal&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 **Tools & IDE**
 
@@ -45,11 +46,16 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+![Fork](https://img.shields.io/badge/Fork-2D333B?style=flat-square&logo=git&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Mockoon](https://img.shields.io/badge/Mockoon-4E8CEE?style=flat-square&logo=mockoon&logoColor=white)
 ![AutoHotkey](https://img.shields.io/badge/AutoHotKey-334455?style=flat-square&logo=autohotkey&logoColor=white)
-![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-512BD4?style=flat-square&logo=odin&logoColor=white)
+![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-512BD4?style=flat-square)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white)
 ![AI Coding](https://img.shields.io/badge/AI%20Coding-00A67E?style=flat-square&logo=openai&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Spine](https://img.shields.io/badge/Spine-FF0000?style=flat-square&logo=spine&logoColor=white)
 
 **Game Dev & Workflow**
 
