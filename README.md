@@ -1,5 +1,5 @@
 <!-- 顶部：头像 + 名称 -->
-<h1 align="center">Hi, I’m CriseSun 👋</h1>
+<h1 align="center">“让复杂的开发流程自动化，让游戏开发更纯粹。”</h1>
 <p align="center">
   <strong>Unity3D Game Developer · 客户端开发 & Editor 工具链 · 自动化／热更新／性能优化</strong>
 </p>
