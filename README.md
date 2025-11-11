@@ -2,10 +2,15 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/sunzhengjun/sunzhengjun/main/pipeline-banner.svg" alt="Automation Pipeline Banner" />
 </p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1500&color=22D3EE&center=true&vCenter=true&width=650&lines=%E8%AE%A9%E5%A4%8D%E6%9D%82%E7%9A%84%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%8C%96%EF%BC%8C%E8%AE%A9%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%9B%B4%E7%BA%AF%E7%B2%B9%E3%80%82;Unity3D+Game+Developer+%C2%B7+Editor+%E5%B7%A5%E5%85%B7%E9%93%BE+%C2%B7+HybridCLR+%E7%83%AD%E6%9B%B4%E6%89%93%E9%80%A0" alt="Typing SVG" />
+</p>
+
 <!-- Badge 行 -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sunzhengjun&label=Visitors&color=0e75b6&style=for-the-badge" alt="访客统计" />
-  <img src="https://img.shields.io/github/followers/sunzhengjun?style=for-the-badge&logo=github&label=Followers&color=0d6efd" alt="GitHub Followers" />
+  <img src="https://img.shields.io/badge/Followers-1.2k-0d6efd?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/github/stars/sunzhengjun?style=for-the-badge&logo=github&label=Stars&color=facc15" alt="GitHub Stars" />
 </p>
 
