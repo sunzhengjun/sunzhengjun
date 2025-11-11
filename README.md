@@ -52,8 +52,6 @@
 ![Mockoon](https://img.shields.io/badge/Mockoon-4E8CEE?style=flat-square&logo=mockoon&logoColor=white)
 ![AutoHotkey](https://img.shields.io/badge/AutoHotKey-334455?style=flat-square&logo=autohotkey&logoColor=white)
 ![Odin Inspector](https://img.shields.io/badge/Odin%20Inspector-512BD4?style=flat-square)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white)
-![AI Coding](https://img.shields.io/badge/AI%20Coding-00A67E?style=flat-square&logo=openai&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![Spine](https://img.shields.io/badge/Spine-FF0000?style=flat-square&logo=spine&logoColor=white)
 
@@ -71,14 +69,16 @@
 ---
 
 
-## 💡 技术成果 Highlights
-- **构建流程自动化**：开发 Android/iOS/Xcode 构建系统，构建时间缩短约 60%。  
-- **资源自动同步系统**：实现资源命名 + Excel 同步工具，协作效率提升约 30%。  
-- **标准化 GUI 工具链**：为美术资源配置开发一键生成工具，提升约 50%效率。  
-- **热更新架构重构**：优化 HybridCLR 热更新体系，带宽成本下降约 42%，加载时间明显缩短。  
-- **自研 Editor 插件集**：包括技能编辑器、资源筛查、一键生成工具等，覆盖客户端流程工具链。  
+## 💡 技术魔法 Highlights
+
+- **🚀 构建流水线革命**：重塑 Android/iOS 构建管线，将构建时间从“一杯咖啡”压缩至“一口咖啡”，整体效率提升约 **60%**。  
+- **🔄 资源协作战役**：打造资源与配置自动化同步体系，让美术与策划告别命名纠纷与手动拖拽，协作效率提升约 **30%**。  
+- **🎨 美术资源配置化**：为美术资源开发标准化 GUI 工具链，实现关键资源配置“一键生成”，将重复劳动转化为创意时间，效率提升约 **50%**。  
+- **⚡ 热更新架构进化**：深度重构 HybridCLR 热更新体系，不仅让加载体验“无缝丝滑”，更使带宽成本骤降约 **42%**。  
+- **🧰 自研编辑器武器库**：打造涵盖技能编辑、资源筛查、一键生成等功能的 Editor 插件集，将 Unity Editor 打造成团队专属神兵。  
 
 ---
+
 
 ## 📚 项目精选（可选节）
 | 项目 | 描述 | 角色 |
