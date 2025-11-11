@@ -5,12 +5,6 @@
 <!-- 头像 + 名称 + 简历入口 -->
 <h1 align="center">Hi, I'm CriseSun 👋</h1>
 
-<p align="center">
-  <a href="https://github.com/sunzhengjun/sunzhengjun/blob/main/孙正君-U3D_2025.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/📄_点击查看我的简历-重要文档-important?style=for-the-badge" alt="Resume PDF" />
-  </a>
-</p>
-
 <!-- 标题 -->
 <p align="center">
   <strong>Unity3D Game Developer · 客户端开发 & Editor 工具链 · 自动化 / 热更新 / 性能优化</strong>
@@ -31,7 +25,7 @@
 - 🧰 精通 **Editor扩展、自动化构建、HybridCLR热更新**、网络模块及工具研发  
 - ⚙️ 熟悉 **Android/iOS/Xcode构建自动化流程**，能显著缩短版本发布周期  
 - 🧪 对 **性能优化、脚本架构、工具开发** 有持续热情与研究  
-- 📌 现任河南摩决堂网络科技有限公司 Unity3D工程师  
+- 📌 现任河南悟空互娱网络科技有限公司 Unity3D工程师  
 
 ---
 
