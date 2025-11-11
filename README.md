@@ -4,7 +4,7 @@
 
 <!-- 打字效果标题 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&center=true&vCenter=true&width=520&lines=Unity3D+Game+Developer;专注+客户端开发和Editor工具链;热衷+自动化、热更新、性能优化" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Unity3D+Game+Developer;专注+客户端开发和Editor工具链;热衷+自动化、热更新、性能优化&font=Fira+Code&size=28&width=520&pause=1200&color=36BCF7" alt="Typing SVG" />
 </p>
 
 <!-- 访问量 & GitHub 关注/Star -->
