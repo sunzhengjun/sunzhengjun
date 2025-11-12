@@ -10,6 +10,9 @@
   <img src="https://img.shields.io/github/stars/sunzhengjun?style=for-the-badge&logo=github&label=Stars&color=facc15" alt="GitHub Stars" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/你的用户名/你的仓库/main/about-banner-slim.svg" alt="About Me Banner" />
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/sunzhengjun/sunzhengjun/main/orbit-banner.svg" alt="About Me Banner" />
