@@ -1,32 +1,67 @@
-<svg viewBox="0 0 900 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
-  <title id="t">About Me · Circuit Bar</title>
+<svg viewBox="0 0 900 56" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">About Me · Divider v3 (Straight + Glow Trail)</title>
   <defs>
-    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#6366f1"/><stop offset="100%" stop-color="#f97316"/>
+    <!-- 主配色渐变 -->
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#f97316"/>
     </linearGradient>
+
+    <!-- 细发光，边缘清晰 -->
+    <filter id="glow" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="1.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- 胶囊扫光 -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- 仅让流光出现在左右两段导线上 -->
+    <mask id="lineMask">
+      <rect x="0" y="0" width="900" height="56" fill="black"/>
+      <!-- 左直线：y=28，高2px -->
+      <rect x="24" y="27" width="312" height="2" rx="1" fill="white"/>
+      <!-- 右直线：与左对称 -->
+      <rect x="564" y="27" width="312" height="2" rx="1" fill="white"/>
+    </mask>
   </defs>
 
-  <!-- 背景带（要透明请删掉） -->
-  <rect width="900" height="64" fill="#0b1220" rx="12"/>
+  <!-- 背景（需要透明可删除） -->
+  <rect width="900" height="56" rx="12" fill="#0b1220"/>
 
-  <!-- 左右电路线 -->
-  <path d="M20 32 H300 Q320 32 332 24 T360 16 H420" fill="none" stroke="url(#wire)" stroke-width="2"/>
-  <path d="M880 32 H600 Q580 32 568 24 T540 16 H480" fill="none" stroke="url(#wire)" stroke-width="2"/>
+  <!-- 左右导线（直线） -->
+  <rect x="24" y="27" width="312" height="2" rx="1" fill="url(#grad)" filter="url(#glow)" opacity=".9"/>
+  <rect x="564" y="27" width="312" height="2" rx="1" fill="url(#grad)" filter="url(#glow)" opacity=".9"/>
 
-  <!-- 中央标题胶囊 -->
-  <g transform="translate(450,32)">
-    <rect x="-90" y="-14" width="180" height="28" rx="14" fill="#111827" stroke="url(#wire)" opacity="0.9"/>
+  <!-- 中央胶囊标题 -->
+  <g transform="translate(450,28)">
+    <rect x="-84" y="-14" width="168" height="28" rx="14"
+          fill="#0d1117" stroke="url(#grad)" stroke-width="1.4" filter="url(#glow)"/>
+    <!-- 胶囊扫光（轻） -->
+    <rect x="-84" y="-14" width="168" height="28" rx="14" fill="url(#shine)" opacity=".32">
+      <animate attributeName="x" values="-120;36;-120" dur="5.6s" repeatCount="indefinite"/>
+    </rect>
     <text x="0" y="6" text-anchor="middle" fill="#e5e7eb"
           font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto"
           font-size="16" font-weight="700">About Me</text>
   </g>
 
-  <!-- 跑马小光点（低调） -->
-  <circle cx="20" cy="32" r="2.5" fill="#22d3ee">
-    <animate attributeName="cx" values="20;420;20" dur="6s" repeatCount="indefinite" calcMode="linear"/>
-  </circle>
-  <circle cx="880" cy="32" r="2.5" fill="#f97316">
-    <animate attributeName="cx" values="880;480;880" dur="6s" repeatCount="indefinite" calcMode="linear"/>
-  </circle>
+  <!-- 导线流光：一条宽度渐隐的长条，在整行移动，但通过 mask 只显示在线段上 -->
+  <g mask="url(#lineMask)" filter="url(#glow)">
+    <!-- 基础淡光带，提升“质感” -->
+    <rect x="24" y="26.5" width="852" height="3" fill="url(#grad)" opacity=".08"/>
+    <!-- 主动效流光 -->
+    <rect x="-180" y="26" width="180" height="4" fill="url(#grad)" opacity=".45" rx="2">
+      <animate attributeName="x" values="-180;900;-180" dur="4.8s" repeatCount="indefinite" />
+    </rect>
+    <!-- 次级窄流光，拉开层次 -->
+    <rect x="-120" y="26.5" width="90" height="3" fill="white" opacity=".15" rx="1.5">
+      <animate attributeName="x" values="-120;900;-120" dur="3.6s" repeatCount="indefinite" />
+    </rect>
+  </g>
 </svg>
-
