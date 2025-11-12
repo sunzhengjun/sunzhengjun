@@ -12,6 +12,98 @@
 
 ---
 
+<!-- About Me · Elegant SVG Card -->
+<svg viewBox="0 0 1200 360" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">About Me</title>
+  <desc id="desc">A short introduction card rendered with pure SVG</desc>
+
+  <defs>
+    <!-- 背景投影 -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12" result="blur"/>
+      <feOffset dy="8" result="offset"/>
+      <feColorMatrix in="offset" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.20 0" result="shadow"/>
+      <feBlend in="SourceGraphic" in2="shadow" mode="normal"/>
+    </filter>
+
+    <!-- 渐变描边 -->
+    <linearGradient id="gradStroke" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%"  stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+
+    <!-- 标题文字渐变 -->
+    <linearGradient id="gradTitle" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%"  stop-color="#60A5FA"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+
+    <!-- 分隔线发光 -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 主题适配（GitHub 支持） -->
+    <style>
+      :root { --fg:#0f172a; --muted:#475569; --panel:#ffffff; }
+      @media (prefers-color-scheme: dark) {
+        :root { --fg:#e5e7eb; --muted:#94a3b8; --panel:#0b1220; }
+      }
+      .fg{ fill: var(--fg); }
+      .muted{ fill: var(--muted); }
+      .panel{ fill: var(--panel); }
+    </style>
+  </defs>
+
+  <!-- 卡片 -->
+  <rect x="40" y="32" width="1120" height="296" rx="24"
+        class="panel" filter="url(#softShadow)" />
+  <rect x="40.5" y="32.5" width="1119" height="295" rx="24"
+        fill="none" stroke="url(#gradStroke)" stroke-width="1.5"/>
+
+  <!-- 标题 -->
+  <g text-anchor="middle" transform="translate(600,100)">
+    <text font-size="28" font-family="Segoe UI, Inter, system-ui, -apple-system, Noto Sans CJK SC, Microsoft YaHei"
+          font-weight="700" fill="url(#gradTitle)">
+      👨‍💻 简介 · About Me
+    </text>
+
+    <!-- 分隔线 -->
+    <g transform="translate(0,20)" filter="url(#glow)">
+      <rect x="-120" y="10" width="240" height="2.5" fill="url(#gradStroke)" rx="2"/>
+    </g>
+  </g>
+
+  <!-- 正文 -->
+  <g transform="translate(140,160)">
+    <text class="fg" font-size="20" xml:space="preserve"
+          font-family="Segoe UI, Inter, system-ui, -apple-system, Noto Sans CJK SC, Microsoft YaHei">
+      <tspan x="0" dy="0">Unity 世界的七年老玩家。</tspan>
+      <tspan x="0" dy="34" class="muted">技能树点满：从零造物、工具链自动化、以及「在线热修复」的魔法。</tspan>
+      <tspan x="0" dy="34" class="muted">日常工作是说服各个平台乖乖自动构建，终极目标——让版本发布像发条消息一样轻松。</tspan>
+      <tspan x="0" dy="34" class="muted">一个对优雅代码与高效工具始终保持热忱的「技术手艺人」。</tspan>
+    </text>
+  </g>
+
+  <!-- 右下角徽记 -->
+  <g transform="translate(1040,280)">
+    <circle r="8" fill="url(#gradStroke)"/>
+    <text x="14" y="5" class="muted" font-size="12"
+          font-family="Segoe UI, Inter, system-ui, -apple-system">crafted in SVG</text>
+  </g>
+</svg>
+
+
 <h2 align="center">👨‍💻 简介 · About Me</h2>
 
 <p align="center">
