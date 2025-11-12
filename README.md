@@ -12,7 +12,10 @@
 
 ---
 
-<h2 align="center">👨‍💻 简介 · About Me</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sunzhengjun/sunzhengjun/main/orbit-banner.svg" alt="About Me Banner" />
+</p>
+
 
 <p align="center">
   Unity 世界的七年老玩家。<br/>
